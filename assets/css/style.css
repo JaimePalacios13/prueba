@@ -1,0 +1,13 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-contenedor{
+    padding: 2em;
+    border-radius: 1.5rem;
+    border: 1px solid #eee;
+    box-shadow: 0 1rem 3rem 0.03rem rgba(0, 0, 0, 0.1);
+}

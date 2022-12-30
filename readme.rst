@@ -1,14 +1,16 @@
 ###################
-What is CodeIgniter
+   INSTALACION 
 ###################
+Descargar o hacer git clone del repositorio.
+El nombre con el cual se ha creado la base_url seria prueba por lo tanto el nombre de la carpeta tiene que ser "prueba", de esa mamera se ha configurado el config $config['base_url'] = 'http://localhost:8080/prueba/';
+Tomar en cuanta que esta en el puerto 8080, si su xampp no esta en ese puerto, cambiarlo en el archivo config, el cual se encuentra en application/config/config.php.
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+ejecutar el script de la base de datos el cual se encuentra en la carpeta BD, la conexion de la base de datos esa configurada sin password, con el usuario root, si su phpmyadmin posee password tendra que cambiarlo en el archivo de database, el cual se encuentra en application/config/database.php
+
+Para ingresar al sistema como administrador las credenciales serian email: admin@gmail.com, y la password: 12345
+
+De antemano, muchas gracias por estar particpando en el proceso de seleccion, espero ser seleccionado y poder adquirir nuevos conocimientos, y aportar soluciones a probelmas que se presenten.
+
 
 *******************
 Release Information
@@ -34,7 +36,7 @@ PHP version 5.6 or newer is recommended.
 It should work on 5.3.7 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
-
+w
 ************
 Installation
 ************
